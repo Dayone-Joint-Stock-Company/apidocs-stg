@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "framework": {
+    "version": "0.42.1"
+  },
+  "routes": [
+    {
+      "src": "/merchant_api",
+      "dest": "/merchant_api/got-it-merchant",
+      "status": 301,
+      "headers": {
+        "Location": "/merchant_api/got-it-merchant"
+      }
+    },
+    {
+      "src": "/biz_api",
+      "dest": "/biz_api/brands",
+      "status": 301,
+      "headers": {
+        "Location": "/biz_api/brands"
+      }
+    },
+    {
+      "src": "/",
+      "dest": "/introduction",
+      "status": 301,
+      "headers": {
+        "Location": "/introduction"
+      }
+    }
+  ]
+}
