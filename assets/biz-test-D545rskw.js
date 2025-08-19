@@ -1,2 +1,0 @@
-import{O as s,j as e}from"./entry.client-CZCMbUdU.js";const a="This is a test page",r=[],i={title:"ABC"};function o(t){const n={p:"p",...s(),...t.components};return e.jsx(n.p,{children:"This is a test page"})}function p(t={}){const{wrapper:n}={...s(),...t.components};return n?e.jsx(n,{...t,children:e.jsx(o,{...t})}):o(t)}export{p as default,a as excerpt,i as frontmatter,r as tableOfContents};
-//# sourceMappingURL=biz-test-D545rskw.js.map
